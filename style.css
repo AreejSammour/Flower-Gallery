@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(210, 183, 235);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(57, 19, 93);
+}
+.container,footer{
+    width: 100%;
+    height: auto;
+    margin: 20px auto 20px auto;
+    text-align: center;
+}
+.nav-bar{
+    background-color: rgb(84, 63, 105);
+    font-size: 0.8em;
+    height: 30px;
+    margin-bottom: 10px;
+}
+ul{
+	overflow:hidden;
+	color: rgb(210, 183, 235);
+	padding:0;
+	text-align:center;
+	margin: auto;
+	list-style-type:none;
+}
+
+li{
+	display: inline-block;
+	padding: 5px;
+    min-width: 6%;
+}
+
+a{
+	text-decoration:none;
+	color:inherit;
+    
+}
+
+.bar:hover{
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color:rgb(247, 174, 197) ;
+}
+
+.log-block{
+    background-color: #ffffff;
+    width: 728px;
+    height: 90px;
+    border-radius: 20%;
+    margin: 10px auto;
+    box-shadow: 5px 5px 10px rgb(57, 19, 93);
+}
+
+.logo{
+    width: 25%;
+    height: auto;
+    margin:20px auto;
+}
+.bilder{
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.blom-div{
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 5px 10px 20px 10px;
+    box-shadow: 5px 5px 10px rgb(57, 19, 93);
+    transition: 2s;
+}
+
+.blom-div:hover{
+   font-size: 1.5em;
+   background-color: rgb(247, 174, 197);
+}
+
+.blommer{
+    width: 220px;
+    height: 198px;
+}
+
+.icon-div{
+    margin: 5px auto;
+    text-align: left;
+    display: flex;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+span{
+    font-size: 0.8em;
+    font-weight: bolder;
+    margin: auto auto auto 2px;
+}
+
+footer{
+    background-color: rgb(84, 63, 105);
+    font-size: small;
+    color:rgb(210, 183, 235) ;
+    height: 50px;
+    padding-top: 10px;
+}
